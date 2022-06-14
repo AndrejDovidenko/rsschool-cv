@@ -1,65 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV Andrei Davidzenka</title>
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1><strong>Andrei Davidzenka</strong></h1>
-    <img
-      src="./img/avatar.jpg"
-      alt="Невозможно загрузить фото"
-    >
-    <h2><strong>Contact information:</strong></h2>
-    <ul>
-      <li>Phone: +375336705974</li>
-      <li>
-        Telegram:<a href="https://t.me/Andrej_Dovidenko">
-          https://t.me/Andrej_Dovidenko</a
-        >
-      </li>
-      <li>Discord: Andrej Dovidenko#6975</li>
-      <li>Email: andrejdovidenko@gmail.com</li>
-    </ul>
-    <h2><strong>About me:</strong></h2>
-    <p>
-      I am 27 years old. I have good interpersonal skills, am an excellent team
-      worker and very willing to learn and develop new skills.
-      <br>
-      I want to realize myself in the profession of a developer. My next goal is
-      to get a job as a junior developer(Frontend).
-    </p>
-    <h2><strong>Skills:</strong></h2>
-    <ul>
-      <li>Git &amp; Markdown</li>
-      <li>HTML</li>
-      <li>CSS</li>
-    </ul>
-    <h2><strong>Code Example:</strong></h2>
-    <pre>
-    &lt;style&gt;
-      .violet {
-        color: #9400d3;
-      }
-    &lt;/style&gt;
-    &lt;p class="important-information"&gt;
-      &lt;span class="violet"&gt;Внимание!&lt;/span&gt;Важная информация
-    &lt;/p&gt;
-    </pre>
-    <h2><strong>Education:</strong></h2>
-    <ul>
-      <li>
-        2012-2015 Minsk State Automechanical college named after academician
-        M.S. Vysotsky.
-      </li>
-      <li>2016-2020 Belarus State Economic Univercity, Minsk.</li>
-    </ul>
-    <h2>English:</h2>
-    <ul>
-      <li>English Level A1-A2</li>
-    </ul>
+    <header>
+      <div class="container">
+        <nav>
+          <ul class="nav-list">
+            <li><a href="#contact">Contact information</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#english">English</a></li>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#code">Code Example</a></li>
+            <li><a href="#education">Education</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="left-side">
+          <img src="./img/avatar.jpg" alt="Невозможно загрузить фото" />
+          <section class="subsection-2">
+            <h2 id="contact">
+              <div class="indent"></div>
+              Contact information
+            </h2>
+            <ul class="contact-list">
+              <li>Phone: +375336705974</li>
+              <li>
+                Telegram:<a href="https://t.me/Andrej_Dovidenko">
+                  https://t.me/Andrej_Dovidenko</a
+                >
+              </li>
+              <li>Discord: Andrej Dovidenko#6975</li>
+              <li>Email: andrejdovidenko@gmail.com</li>
+            </ul>
+          </section>
+          <section class="subsection-2">
+            <h2 id="skills">
+              <div class="indent"></div>
+              Skills
+            </h2>
+            <ul class="contact-list">
+              <li>Git &amp; Markdown</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </section>
+          <section class="subsection-2">
+            <h2 id="english">
+              <div class="indent"></div>
+              English
+            </h2>
+            <ul class="contact-list">
+              <li>English Level A1-A2</li>
+            </ul>
+          </section>
+        </section>
+        <section class="right-side">
+          <section class="subsection-2 right">
+            <h1 class="title-cv">
+              <p class="name">Andrei<span>Davidzenka</span></p>
+              <p>Professional title</p>
+            </h1>
+            <h2 class="right" id="about-me">About me</h2>
+            <p class="about-me-text">
+              I am 27 years old. I have good interpersonal skills, am an
+              excellent team worker and very willing to learn and develop new
+              skills. I want to realize myself in the profession of a developer.
+              My next goal is to get a job as a junior developer(Frontend).
+            </p>
+          </section>
+          <section class="subsection-2 right">
+            <h2 class="right" id="code">Code Example</h2>
+            <pre>
+            &lt;style&gt;
+              .violet {
+                color: #9400d3;
+              }
+            &lt;/style&gt;
+            &lt;p class="important-information"&gt;
+              &lt;span class="violet"&gt;Внимание!&lt;/span&gt;Важная информация
+            &lt;/p&gt;
+        </pre
+            >
+          </section>
+          <section class="subsection-2 right">
+            <h2 class="right" id="education">Education</h2>
+            <ul>
+              <li>
+                2012-2015 Minsk State Automechanical college named after
+                academician M.S. Vysotsky.
+              </li>
+              <li>2016-2020 Belarus State Economic Univercity, Minsk.</li>
+            </ul>
+          </section>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-wrapper">
+          <a href="https://rs.school/js"></a>
+          <p>Copyright ©RSSchool 2022</p>
+          <a href="https://github.com/AndrejDovidenko"></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
