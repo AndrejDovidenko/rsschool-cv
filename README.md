@@ -1,2 +1,2 @@
 # https://AndrejDovidenko.github.io/rsschool-cv/ #
-# https://AndrejDovidenko.github.io/rsschool-cv/cv #cd
+# https://AndrejDovidenko.github.io/rsschool-cv/cv #
